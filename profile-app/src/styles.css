@@ -1,3 +1,114 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.css";
+body{
+  font-family: "Segoe UI";
+  line-height: 15px;
+}
+dashboard{
+  background: #EEF0F2;
+  padding: 0 15px;
+  width: 100%;
+  position:relative;
+  min-height: 100vh;
+  float: left;
+}
+.tn-card{
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(49, 51, 58, 0.2);
+  padding: 16px 32px;
+  background-color: #fff;
+  margin-bottom: 16px;
+  max-width: 100%;
+  float: left;
+}
+.no-border{
+  border: none !important;
+}
+.profileHeader{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0 0 10px;
+  border-bottom: 1px solid #ddd;
+}
+.profileHeader span{
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 15px;
+  border-bottom: 5px solid transparent;
+}
+.profileHeader span.active{
+  border-bottom: 5px solid blue;
+}
+.profileSections{
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  border-right: 1px solid #dddddd;
+}
+.section{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.profile-action{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 80px;
+}
+.profile-action.isselect{
+  justify-content: space-between;
+}
+.tn-button {
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 0 44px;
+  height: 50px;
+  color: #fff;
+  outline: 0;
+  background: #fff;
+  border: 0;
+  margin:15px 5px 15px 0;}
+.tn-button[disabled] {
+  opacity: 0.5; }
+.tn-button.tn-action-button {
+  background: -webkit-linear-gradient(45deg, #f6594c, #f17c35);
+  background: linear-gradient(45deg, #f6594c, #f17c35); }
+.tn-button.tn-action-button:hover {
+  background: -webkit-linear-gradient(45deg, #f76f54, #f38a40);
+  background: linear-gradient(45deg, #f76f54, #f38a40); }
+.tn-button.tn-edit-button {
+  border: 2px solid #19a5f0;
+  color: #19a5f0; }
+.tn-button.tn-edit-button.hover {
+  border-color: #92a0ac; }
+.tn-button.tn-delete-button {
+  border: 2px solid #ff5169;
+  color: #ff5169; }
+.tn-button.tn-cancel-button {
+  background: #E4E8ED;
+  color: #000; }
+select {
+  width: 100%;
+  padding: 0px 5px !important;
+  margin: 16px 0;
+  border: 1px solid #D4DBE5;
+  height: 28px;
+  max-width: 160px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  color: #30343C;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff url(../src/assets/images/arrowDown.svg) no-repeat 98% 50%; }
+ select::-ms-expand {
+  display: none; }

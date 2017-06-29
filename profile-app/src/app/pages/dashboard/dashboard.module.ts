@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {DashboardComponent} from "./dashboard.component";
 import {DashboardRouting} from "./dashboard.routes";
-
+import {ProfileModule} from "../profile/profile.module";
 
 @NgModule({
   declarations: [
@@ -10,6 +10,7 @@ import {DashboardRouting} from "./dashboard.routes";
   ],
   imports: [
     BrowserModule,
+    ProfileModule,
     DashboardRouting,
     DashboardRouting
   ],

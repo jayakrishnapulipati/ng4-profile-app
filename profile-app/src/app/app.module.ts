@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {PagesModule} from "./pages/pages.module";
 import {AppRouting} from "./app.routing";
+import { BlockUIModule } from 'ng-block-ui';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import {AppRouting} from "./app.routing";
   imports: [
     BrowserModule,
     PagesModule,
+    BlockUIModule,
     AppRouting
   ],
   providers: [],

@@ -9,6 +9,7 @@ import {ContactsComponent} from "./contacts/contacts.component";
 import {PhoneContactComponent} from "./contacts/phone/phone-contact.component";
 import {EmailContactComponent} from "./contacts/email/email-contact.component";
 import {EmergencyContactComponent} from "./emergency-contact/emergency-contact.component";
+import {ProfileService} from "./shared/profile.service";
 
 
 @NgModule({
@@ -28,6 +29,8 @@ import {EmergencyContactComponent} from "./emergency-contact/emergency-contact.c
   ],
   imports: [
   ],
-  providers: []
+  providers: [
+    ProfileService
+  ]
 })
 export class ProfileModule { }

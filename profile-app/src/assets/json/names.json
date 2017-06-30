@@ -1,0 +1,86 @@
+{
+  "data": {
+    "prfNamesActiveList": [],
+    "prfNamesCurrentList": [],
+    "prfNamesHistoryList": [],
+    "priNamesActiveList": [
+      {
+        "approvalStatus": "F",
+        "effectiveDate": "2012-01-20",
+        "employeeId": "00000621003",
+        "endDate": "2099-12-31",
+        "firstName": "William",
+        "formOfAddress": "Mr",
+        "middleName": "O",
+        "nameFormat": "US",
+        "nameType": "PRI",
+        "personTitle": null,
+        "reasonChangeCode": null,
+        "uniqueId": 5,
+        "prevEffectiveDate": null,
+        "lastName": "Wick, Jr.",
+        "suffix": null,
+        "name": null
+      }
+    ],
+    "priNamesHistoryList": [
+      {
+        "approvalStatus": "F",
+        "effectiveDate": "2012-01-01",
+        "employeeId": "00000621003",
+        "endDate": "2012-01-19",
+        "firstName": "William",
+        "formOfAddress": "Mr",
+        "middleName": "O",
+        "nameFormat": "US",
+        "nameType": "PRI",
+        "personTitle": null,
+        "reasonChangeCode": null,
+        "uniqueId": 4,
+        "prevEffectiveDate": null,
+        "lastName": "Wick",
+        "suffix": null,
+        "name": null
+      },
+      {
+        "approvalStatus": "F",
+        "effectiveDate": "2008-09-03",
+        "employeeId": "00000621003",
+        "endDate": "2011-12-31",
+        "firstName": "William",
+        "formOfAddress": null,
+        "middleName": "O",
+        "nameFormat": "US",
+        "nameType": "PRI",
+        "personTitle": null,
+        "reasonChangeCode": null,
+        "uniqueId": 2,
+        "prevEffectiveDate": null,
+        "lastName": "Wick",
+        "suffix": null,
+        "name": null
+      },
+      {
+        "approvalStatus": "F",
+        "effectiveDate": "1999-11-16",
+        "employeeId": "00000621003",
+        "endDate": "2008-09-02",
+        "firstName": "William",
+        "formOfAddress": " ",
+        "middleName": "O",
+        "nameFormat": "US",
+        "nameType": "PRI",
+        "personTitle": " ",
+        "reasonChangeCode": null,
+        "uniqueId": 1,
+        "prevEffectiveDate": null,
+        "lastName": "Wick Jr.",
+        "suffix": " ",
+        "name": null
+      }
+    ]
+  },
+  "_requestId": "56c50890-a337-4eaf-890d-5750e0572a80",
+  "_statusCode": "200",
+  "_statusText": "OK"
+}

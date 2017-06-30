@@ -14,6 +14,6 @@ export class LoginComponent {
   }
 
   login() {
-    this.router.navigate(['pages/dashboard'])
+    this.router.navigate(['main'])
   }
 }

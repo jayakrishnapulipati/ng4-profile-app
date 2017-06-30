@@ -2,13 +2,11 @@ import { Component } from '@angular/core';
 import {NgBlockUI, BlockUI} from "ng-block-ui";
 
 @Component({
-  selector: 'pages',
-  templateUrl: './pages.component.html'
+  selector: 'main-root',
+  templateUrl: './main.component.html'
 })
-export class PagesComponent {
-  title = 'app';
+export class MainComponent {
 
-  //Decorator wires up blockUI instance
   @BlockUI() blockUI: NgBlockUI;
 
   constructor() {

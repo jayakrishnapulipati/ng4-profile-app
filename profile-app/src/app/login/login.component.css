@@ -97,3 +97,231 @@ body {
   background-color: #1CA347;
   border-color: #1CA347;
 }
+
+.popup-menu {
+  position: absolute;
+  top: 48px;
+  right: -32px;
+  z-index: 1000;
+}
+
+tn-date-selector {
+  height: 3vh;
+}
+.menu{
+  position: relative;
+  border-radius: 4px;
+  margin: 22px;
+  padding: 10px;
+  width: 224px;
+  font-size: 14px;
+  text-align: left;
+  background-color: #fff;
+  filter: drop-shadow(0 9px 34px rgba(55,57,62,.38));
+  -webkit-filter: drop-shadow(0 9px 34px rgba(55,57,62,.38));
+}
+
+.date-select {
+  position: relative;
+  max-width: 150px;
+}
+.date-select select {
+  width: 150px;
+}
+.date-select input {
+  color: #242936;
+  border-color: #b3bdc7;
+}
+.date-select.is-disabled {
+  color: #ddd;
+}
+
+.tn-datepicker-nav-button:focus {
+  outline: 1px solid #2d6997;
+}
+
+.tn-date-selector-popup {
+  position: relative;
+  top: -20px;
+  right: 0px;
+  left: -20px;
+  z-index: 10000;
+}
+
+.tn-date-selector-menu {
+  height: 325px;
+  width: 325px;
+}
+.tn-date-selector-menu .caret {
+  top: -8px;
+  left: 26px;
+}
+.tn-date-selector-menu .tn-date-selector .tn-datepicker-calender {
+  width: 100%;
+}
+.tn-date-selector-menu .error-message {
+  height: 0;
+  color: red;
+  text-align: center;
+  margin: 0;
+}
+.tn-date-selector-menu .menu {
+  width: 100%;
+  height: 100%;
+}
+
+.tn-datepicker-day.is-not-in-month {
+  visibility: hidden;
+}
+
+.tn-date-selector-calendar-icon {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  color: black;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.is-in-month, .month-label {
+  color: black;
+}
+
+.is-today {
+  border-radius: 50%;
+  background-color: #2d6997;
+  color: white;
+}
+
+.is-selected-date {
+  color: black;
+  border-radius: 50%;
+  border: 1px solid #2d6997;
+}
+
+.date-input {
+  border: 1px solid;
+  border-radius: 4px;
+  background: transparent;
+  z-index: 4;
+  position: relative;
+  cursor: pointer;
+}
+.date-input .input-box {
+  border: none;
+  border-radius: 0;
+  background: transparent;
+}
+
+.tn-datepicker-day button {
+  background: transparent;
+  border: 0;
+  border-radius: 100%;
+  width: 100%;
+}
+.tn-datepicker {
+  height: auto;
+}
+
+.tn-datepicker-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px;
+  width: 100%;
+}
+
+.tn-datepicker-col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: block;
+  padding: 2px;
+  width: 100%;
+  position: relative;
+}
+
+.tn-datepicker-title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tn-datepicker-month-label {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  width: 150px;
+}
+
+.tn-datepicker-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.tn-datepicker-nav-button {
+  border-radius: 50%;
+  border: 2px solid #A9B2C1;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tn-datepicker-day-label {
+  color: #051515;
+  text-align: center;
+}
+
+.tn-datepicker-day {
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  margin-left: 5px;
+}
+.tn-datepicker-day.is-not-in-month {
+  color: #A9B2C1;
+}
+.tn-datepicker-day.is-overlapping-date {
+  border-radius: 50%;
+  background-color: #65BDEF;
+  color: white;
+  background-image: linear-gradient(90deg, #1178BA 50%, transparent 50%);
+}
+
+.tn-datepicker-footer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+}
+.tn-datepicker-footer span.pay-end-date-payroll-due-date-no-benefit-deductions {
+  position: relative;
+}
+.tn-datepicker-footer span:first-child {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.tn-datepicker-footer span:last-child {
+  width: calc(100% - 30px);
+}
+

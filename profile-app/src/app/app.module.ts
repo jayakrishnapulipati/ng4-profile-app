@@ -6,7 +6,7 @@ import {AppRouting} from "./app.routing";
 import { BlockUIModule } from 'ng-block-ui';
 import {LoginComponent} from "./login/login.component";
 import {MainModule} from "./main/main.module";
-
+import { FormsModule }   from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,6 +14,7 @@ import {MainModule} from "./main/main.module";
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     BlockUIModule,
     MainModule,
     AppRouting
